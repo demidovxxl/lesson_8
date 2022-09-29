@@ -1,0 +1,1335 @@
+.page {
+	background: #e5e5e52e;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.page__container {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 120px 0;
+}
+.page__up {
+	display: block;
+	margin-bottom: 180px;
+}
+.page__up-left {
+	display: inline-block;
+	max-width: 600px;
+	margin-right: 130px;
+}
+.page__title-block {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.page__text p{
+	margin-bottom: 48px;
+}
+.page__text ul li:not(:last-child){
+	margin-bottom: 4px;
+}
+
+.page__text li{
+	padding-left: 32px;
+}
+.page__text li::before{
+	background: url("../img/icons/check.svg") 0 0 no-repeat;
+	content: "";
+	padding-right: 32px;
+	margin-left: -32px;
+	min-width: 16px;
+	min-height: 16px;
+	display: inline-block;
+}
+.page__subtitle-block {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.page__up-right {
+	background: #fff;
+	border: 1px solid #e5e8ed	;
+	display: inline-block;
+	max-width: 495px;
+	box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+	border-radius: 4px;
+}
+.page__up-right-block{
+	padding: 40px 32px;
+}
+
+
+.page__up-right-block div{
+	margin-bottom: 32px;
+}
+.page__up-right-block div:nth-child(3){
+	margin-bottom: 40px;
+}
+
+.page__terms-block p:nth-child(1){
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+}
+.page__terms-block p:nth-child(1):not(:last-child){
+	margin-bottom: 4px;
+}
+.page__terms-block p:nth-child(2){
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	color: #FF3F3A;
+}
+.page__terms-block p:nth-child(2):not(:last-child){
+	margin-bottom: 8px;
+}
+.page__terms-block p:nth-child(3){
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787A80;
+}
+.page__terms-block p:nth-child(3):not(:last-child){
+	margin-bottom: 0px;
+}
+
+.page__button {
+	width: 431px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 44px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	color: #FFFFFF;
+}
+.page__down {
+	display: block;
+}
+
+.page__curator-block p{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+
+.page__curator-block>*:last-child{
+	margin-bottom: 0;
+}
+.page__curator-block{
+	margin-bottom: 16px;
+}
+
+.page__down-right li{
+	padding-left: 32px;
+}
+.page__down-right li:nth-child(1):before{
+	background: url("../img/icons/star.svg") 0 0 no-repeat;
+	content: "";
+	padding-right: 32px;
+	margin-left: -32px;
+	min-width: 16px;
+	min-height: 16px;
+	display: inline-block;
+}
+.page__down-right li:nth-child(2):before{
+	background: url("../img/icons/play.svg") 0 0 no-repeat;
+	content: "";
+	padding-right: 32px;
+	margin-left: -32px;
+	min-width: 16px;
+	min-height: 16px;
+	display: inline-block;
+}
+.page__down-right li:nth-child(3):before{
+	background: url("../img/icons/profile.svg") 0 0 no-repeat;
+	content: "";
+	padding-right: 32px;
+	margin-left: -32px;
+	min-width: 16px;
+	min-height: 16px;
+	display: inline-block;
+}
+
+.page__down-right span{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+}
+.page__down-right ul{
+	margin-bottom: 32px;
+}
+
+.page__down-right .page__text>*:last-child{
+	margin-bottom: 0;
+}
+
+/* ----------------------------- Homework ------------------------- */
+
+.homework {
+	background: #dedede;
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	padding: 40px 0;
+}
+.homework__conteiner {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.homewokr__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 60px;
+}
+.homewokr__checkmate {
+	font-size: 0;
+	max-width: 840px;
+	margin: 0 auto;
+	border: 20px solid #656565;
+	margin-bottom: 120px;
+}
+.homewokr__checkmate span{
+	display: inline-block;
+	background: white;
+	padding: 80px;
+	margin-bottom: -14px;
+}
+.homewokr__checkmate span:nth-child(odd){
+	background-color: #1E212C;
+}
+.homewokr__checkmate span:nth-child(odd):hover{
+	background: url("../img/homework/chess.png") 0 0/ 100% no-repeat, #1E212C;
+}
+.homewokr__checkmate span:nth-child(even):active{
+	background: url("../img/homework/horse.webp") 0 0/ 100% no-repeat;
+}
+.homewokr__checkmate span:nth-child(3):active{
+	background: url("../img/homework/bones_replay.jpg") 0 0/ 100% no-repeat;
+}
+.homewokr__checkmate span:nth-child(24){
+	background-color: #ff5252;
+}
+.homewokr__checkmate span:nth-child(3){
+	background-color: #ff5252;
+}
+
+/* ------------------------------ focus ------------------------------------ */
+.focus{
+	background-color: #f3f3f3;
+	margin-bottom: 80px;
+	padding: 20px;
+}
+.homework__focus-input{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 2px;
+	letter-spacing: 2px;
+	padding: 20px 40px;
+	width: 600px;
+	border: 3px dashed #1E212C;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+}
+.homework__focus-input:focus{
+	border: 3px dashed red;
+	text-shadow: 2px 2px 3px red;
+	box-shadow: 0px 0px 39px 2px rgba(255, 0, 0, 0.2) inset;
+	display: block;
+	margin: 0 auto;
+}
+.homework__focus-input:focus{
+	outline: none;
+}
+
+/* --------------------------- target ------------------------------------- */
+.target{
+	background-color: #f3f3f3;
+	margin-bottom: 80px;
+	padding: 20px;
+}
+.homewokr__target-in {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	border: 3px solid #1E212C;
+}
+.homewokr__target-link {
+	display: inline-block;
+	background-color: rgb(255, 226, 198);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color: #1E212C;
+   padding: 10px;
+   border-radius: 10px 10px 0 0;
+	border-left: 1px solid grey;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid rgb(255, 226, 198);;
+}
+.homewokr__target-link:not(:last-child){
+	margin-right: 25px;
+}
+.homework__target-out {
+	text-align: center;
+	padding: 20px;
+	outline: 1px solid grey;
+	border-radius: 10px;
+	display: none;
+	background-color: rgb(255, 226, 198);
+}
+.homework__target-out p:not(:last-child) {
+	margin-bottom: 5px;
+}
+.homework__target-out:target {
+	display: block;
+}
+
+a#target-1:target ~ .target-1,
+a#target-2:target ~ .target-2,
+a#target-3:target ~ .target-3{
+	display: block;
+}
+.homewokr__target-link:hover{
+	background-color: rgb(255, 181, 112);
+}
+.homewokr__target-link:focus{
+	background-color: rgb(255, 136, 25);
+}
+.homework__target-out p{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+/* ------------------------------ game ------------------------------- */
+
+.game__field{
+	height: 600px;
+	width: 100%;
+	background-color: rgb(255, 181, 112);
+	border: 5px solid rgb(36, 113, 255);
+	padding: 20px;
+}
+
+
+[class*="game__track-"]{
+	visibility: hidden;
+	background-color: #ffffff;
+}
+.game__field:hover .game__track-1{
+	visibility: visible;
+}
+.game__track-1{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.game__track-1:hover .game__track-2{
+	visibility: visible;
+}
+.game__track-2{
+	position: absolute;
+	top: 15px;
+	left: 45px;
+	width: 150px;
+	height: 20px;
+}
+.game__track-2:hover .game__track-3{
+	visibility: visible;
+}
+.game__track-3{
+	position: absolute;
+	top: -15px;
+	left: 150px;
+	width: 50px;
+	height: 50px;
+}
+.game__track-3:hover .game__track-3-1{
+	visibility: visible;
+}
+.game__track-3-1{
+	position: absolute;
+	top: 50px;
+	left: 15px;
+	width: 20px;
+	height: 40px;
+}
+.game__track-3-1:hover{
+	position: absolute;
+	top: 50px;
+	left: 15px;
+	width: 0px;
+	height: 5px;
+}
+.game__track-3:hover .game__track-3-2{
+	visibility: visible;
+}
+.game__track-3-2{
+	position: absolute;
+	top: 15px;
+	left: 40px;
+	width: 50px;
+	height: 20px;
+}
+.game__track-3-2:hover .game__track-4{
+	visibility: visible;
+}
+.game__track-4{
+	position: absolute;
+	top: -20px;
+	left: 50px;
+	width: 50px;
+	height: 60px;
+}
+.game__track-4:hover .game__track-4-1{
+	visibility: visible;
+}
+.game__track-4-1{
+	position: absolute;
+	left: 50px;
+	width: 70px;
+	height: 20px;
+}
+.game__track-4-1:hover{
+	position: absolute;
+	left: 50px;
+	width: 0px;
+	height: 20px;
+}
+.game__track-4:hover .game__track-4-2{
+	visibility: visible;
+}
+.game__track-4-2{
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	width: 50px;
+	height: 20px;
+}
+.game__track-4-2:hover{
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	width: 0px;
+	height: 20px;
+}
+
+.game__track-4:hover .game__track-4-3{
+	visibility: visible;
+}
+
+.game__track-4-3{
+	position: absolute;
+	top: 50px;
+	left: 15px;
+	width: 20px;
+	height: 50px;
+}
+
+.game__track-4-3:hover .game__track-5{
+	visibility: visible;
+}
+.game__track-5{
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	width: 300px;
+	height: 10px;
+}
+.game__track-5:hover .game__track-6{
+	visibility: visible;
+}
+.game__track-6{
+	position: absolute;
+	width: 15px;
+	height: 350px;
+	border-radius: 0 0 100% 100%;
+}
+.game__track-6:hover .game__track-7{
+	visibility: visible;
+}
+.game__track-7{
+	position: absolute;
+	top: 348px;	
+	left: 5px;
+	width: 100px;
+	height: 40px;
+}
+.game__track-7:hover .game__track-7-1{
+	visibility: visible;
+}
+.game__track-7-1{
+	position: absolute;
+	top: 40px;	
+	width: 20px;
+	height: 80px;
+}
+/* --------------------------ложная 7-1*/
+.game__track-7-1:hover .game__track-7-loose{
+	visibility: visible;
+}
+.game__track-7-loose{
+	position: absolute;
+	left: 20px;
+	top: 60px;	
+	width: 400px;
+	height: 20px;
+}
+.game__track-7-loose:hover .game__track-8-loose{
+	visibility: visible;
+}
+.game__track-8-loose{
+	position: absolute;
+	bottom: 0px;
+	left: 400px;	
+	width: 50px;
+	height: 80px;
+}
+.game__track-8-loose:hover .game__track-9-loose-1{
+	visibility: visible;
+}
+.game__track-9-loose-1{
+	position: absolute;
+	left: 50px;
+	top: 60px;	
+	width: 400px;
+	height: 20px;
+}
+.game__track-8-loose:hover .game__track-9-loose-2{
+	visibility: visible;
+}
+.game__track-9-loose-2{
+	position: absolute;
+	left: 50px;
+	top: 30px;	
+	width: 300px;
+	height: 10px;
+}
+
+.game__track-9-loose-2:hover .game__track-10-loose{
+	visibility: visible;
+}
+.game__track-10-loose{
+	position: absolute;
+	left: 300px;
+	top: -15px;	
+	width: 60px;
+	height: 40px;
+}
+.game__track-10-loose:hover .game__track-11-loose{
+	visibility: visible;
+}
+.game__track-11-loose{
+	position: absolute;
+	left: 60px;
+	width: 100px;
+	height: 10px;
+}
+.game__track-11-loose:hover .game__track-12-loose{
+	visibility: visible;
+}
+.game__track-12-loose{
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	width: 20px;
+	height: 55px;
+}
+.game__track-12-loose:hover .game__track-13-loose{
+	visibility: visible;
+}
+.game__track-13-loose{
+	position: absolute;
+	left: 20px;
+	top: 35px;
+	width: 200px;
+	height: 20px;
+}
+
+.game__track-13-loose:hover .game__track-14-loose{
+	visibility: visible;
+}
+.game__track-14-loose{
+	position: absolute;
+	left: 200px;
+	bottom: 0px;
+	width: 10px;
+	height: 550px;
+	border-radius: 100% 100% 0 0;
+}
+.game__track-14-loose:hover .game__track-15-loose{
+	visibility: visible;
+}
+.game__track-15-loose{
+	top: -23px;
+	right: 4px;
+	position: absolute;
+	width: 100px;
+	height: 30px;
+}
+
+.game__track-16-loose-1:hover .game__track-171-loose{
+	visibility: visible;
+}
+.game__track-171-loose{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 50px;
+	height: 20px;
+}
+.game__track-171-loose:hover .game__track-172-loose{
+	visibility: visible;
+}
+.game__track-172-loose{
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+	width: 50px;
+	height: 37px;
+}
+.game__track-172-loose:hover{
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+	width: 0px;
+	height: 37px;
+}
+.game__track-15-loose:hover .game__track-16-loose-1{
+	visibility: visible;
+}
+.game__track-16-loose-1{
+	position: absolute;
+	left: 20px;
+	top: 30px;
+	width: 10px;
+	height: 500px;
+}
+
+.game__track-15-loose:hover .game__track-16-loose-2{
+	visibility: visible;
+}
+.game__track-16-loose-2{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	width: 10px;
+	height: 300px;
+}
+
+.game__track-16-loose-2:hover .game__track-17-loose{
+	visibility: visible;
+}
+.game__track-17-loose{
+	position: absolute;
+	top: 300px;
+	left: -15px;
+	width: 50px;
+	height: 50px;
+}
+.game__track-17-loose:hover .game__track-18-loose{
+	visibility: visible;
+}
+.game__track-18-loose{
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	width: 20px;
+	height: 100px;
+}
+.game__track-18-loose:hover{
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	width: 20px;
+	height: 0px;
+}
+
+.game__track-8-loose:hover .game__track-9-loose-3{
+	visibility: visible;
+}
+.game__track-9-loose-3{
+	position: absolute;
+	left: 50px;
+	top: 0px;	
+	width: 500px;
+	height: 10px;
+}
+
+/* -------------------------- lose1 finish ---------------------- */
+
+.game__track-7:hover .game__track-7-2{
+	visibility: visible;
+}
+.game__track-7-2{
+	position: absolute;
+	left: 40px;
+	top: 40px;	
+	width: 20px;
+	height: 50px;
+}
+.game__track-7-2:hover .game__track-71{
+	visibility: visible;
+}
+.game__track-71{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	width: 300px;
+	height: 20px;
+}
+.game__track-71:hover .game__track-72{
+	visibility: visible;
+}
+.game__track-72{
+	position: absolute;
+	left: 300px;
+	bottom: 0px;
+	width: 50px;
+	height: 80px;
+}
+.game__track-72:hover .game__track-73{
+	visibility: visible;
+}
+.game__track-73{
+	position: absolute;
+	left: 50px;
+	width: 500px;
+	height: 10px;
+}
+.game__track-73:hover .game__track-74{
+	visibility: visible;
+}
+.game__track-74{
+	position: absolute;
+	top: -30px;
+	right: -120px;
+	width: 120px;
+	height: 40px;
+}
+.game__track-74:hover .game__track-75-1{
+	visibility: visible;
+}
+.game__track-75-1{
+	position: absolute;
+	bottom: 40px;
+	width: 20px;
+	height: 120px;
+}
+.game__track-75-1:hover{
+	position: absolute;
+	bottom: 40px;
+	width: 20px;
+	height: 0px;
+}
+.game__track-74:hover .game__track-75-2{
+	visibility: visible;
+}
+.game__track-75-2{
+	position: absolute;
+	left: 50px;
+	bottom: 40px;
+	width: 20px;
+	height: 220px;
+}
+
+.game__track-74:hover .game__track-75-3{
+	visibility: visible;
+}
+.game__track-75-3{
+	position: absolute;
+	left: 100px;
+	bottom: 40px;
+	width: 20px;
+	height: 400px;
+}
+
+.game__track-75-3:hover .game__track-76{
+	visibility: visible;
+}
+.game__track-76{
+	position: absolute;
+	top: -20px;
+	right: 0px;
+	width: 55px;
+	height: 20px;
+}
+
+.game__track-76:hover .game__track-77{
+	visibility: visible;
+}
+.game__track-77{
+	position: absolute;
+	left: -15px;
+	width: 20px;
+	height: 150px;
+}
+
+.game__track-77:hover .game__track-78{
+	visibility: visible;
+}
+.game__track-78{
+	position: absolute;
+	bottom: -50px;
+	left: -130px;
+	width: 150px;
+	height: 50px;
+}
+.game__track-78:hover .game__track-79-1{
+	visibility: visible;
+}
+.game__track-79-1{
+	position: absolute;
+	bottom: -150px;
+	width: 20px;
+	height: 150px;
+}
+.game__track-79-1:hover{
+	position: absolute;
+	bottom: -50px;
+	width: 20px;
+	height: 0px;
+}
+.game__track-78:hover .game__track-79-2{
+	visibility: visible;
+}
+.game__track-79-2{
+	position: absolute;
+	bottom: -200px;
+	left: 50px;
+	width: 20px;
+	height: 200px;
+}
+.game__track-79-2:hover{
+	position: absolute;
+	bottom: -200px;
+	left: 50px;
+	width: 20px;
+	height: 0px;
+}
+.game__track-78:hover .game__track-79-3{
+	visibility: visible;
+}
+.game__track-79-3{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	width: 10px;
+	height: 150px;
+}
+.game__track-79-3:hover{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	width: 10px;
+	height: 0px;
+}
+.game__track-78:hover .game__track-79-4{
+	visibility: visible;
+}
+.game__track-79-4{
+	position: absolute;
+	right: 150px;
+	top: 15px;
+	width: 100px;
+	height: 20px;
+}
+.game__track-79-4:hover .game__track-791{
+	visibility: visible;
+}
+.game__track-791{
+	position: absolute;
+	left: -190px;
+	bottom: -90px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.game__track-791:hover{
+	position: absolute;
+	left: -190px;
+	bottom: -90px;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+}
+
+/* -------------------------- finish loose-2----------------- */
+
+
+.game__track-7:hover .game__track-7-3{
+	visibility: visible;
+}
+.game__track-7-3{
+	position: absolute;
+	left: 80px;
+	top: 40px;	
+	width: 20px;
+	height: 20px;
+}
+.game__track-7-3:hover .game__track-81{
+	visibility: visible;
+}
+.game__track-81{
+	position: absolute;
+	left: 20px;
+	width: 250px;
+	height: 20px;
+}
+.game__track-81:hover .game__track-82{
+	visibility: visible;
+}
+.game__track-82{
+	position: absolute;
+	bottom: 20px;
+ 	right: 0px;
+	width: 20px;
+	height: 40px;
+}
+.game__track-82:hover .game__track-83{
+	visibility: visible;
+}
+.game__track-83{
+	position: absolute;
+	bottom: 40px;
+ 	left: 0px;
+	width: 500px;
+	height: 60px;
+}
+.game__track-83:hover .game__track-84-1{
+	visibility: visible;
+}
+.game__track-84-1{
+	position: absolute;
+	bottom: 20px;
+ 	right: -40px;
+	width: 40px;
+	height: 20px;
+}
+.game__track-84-1:hover{
+	position: absolute;
+	bottom: 20px;
+ 	right: -40px;
+	width: 40px;
+	height: 0px;
+}
+.game__track-83:hover .game__track-84-2{
+	visibility: visible;
+}
+.game__track-84-2{
+	position: absolute;
+	bottom: 60px;
+ 	right: 60px;
+	width: 10px;
+	height: 120px;
+}
+.game__track-84-2:hover{
+	position: absolute;
+	bottom: 60px;
+ 	right: 60px;
+	width: 10px;
+	height: 0px;
+}
+.game__track-83:hover .game__track-84-3{
+	visibility: visible;
+}
+.game__track-84-3{
+	position: absolute;
+	bottom: 60px;
+ 	right: 177px;
+	width: 20px;
+	height: 110px;
+}
+.game__track-84-3:hover{
+	position: absolute;
+	bottom: 60px;
+ 	right: 177px;
+	width: 20px;
+	height: 0px;
+}
+
+.game__track-84-3:hover .game__track-791{
+	visibility: visible;
+}
+
+.game__track-83:hover .game__track-84-4{
+	visibility: visible;
+}
+.game__track-84-4{
+	position: absolute;
+	bottom: 60px;
+ 	right: 300px;
+	width: 20px;
+	height: 60px;
+}
+.game__track-83:hover .game__track-84-5{
+	visibility: visible;
+}
+.game__track-84-5{
+	position: absolute;
+	bottom: 40px;
+ 	left: -40px;
+	width: 40px;
+	height: 20px;
+}
+
+.game__track-83:hover .game__track-84-6{
+	visibility: visible;
+}
+.game__track-84-6{
+	position: absolute;
+	bottom: 0px;
+ 	left: -200px;
+	width: 200px;
+	height: 20px;
+}
+.game__track-84-6:hover{
+	position: absolute;
+	bottom: 0px;
+ 	left: -200px;
+	width: 0px;
+	height: 20px;
+}
+
+.game__track-84-5:hover .game__track-85{
+	visibility: visible;
+}
+.game__track-85{
+	position: absolute;
+	bottom: 0px;
+ 	left: -200px;
+	width: 200px;
+	height: 20px;
+}
+.game__track-84-5:hover .game__track-85{
+	visibility: visible;
+}
+.game__track-85{
+	position: absolute;
+	bottom: 0px;
+ 	left: -240px;
+	width: 240px;
+	height: 20px;
+}
+
+.game__track-85:hover .game__track-86-1{
+	visibility: visible;
+}
+.game__track-86-1{
+	position: absolute;
+	bottom: 20px;
+	width: 10px;
+	height: 60px;
+}
+.game__track-86-1:hover{
+	position: absolute;
+	bottom: 20px;
+	width: 10px;
+	height: 0px;
+}
+
+.game__track-85:hover .game__track-86-2{
+	visibility: visible;
+}
+.game__track-86-2{
+	position: absolute;
+	top: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.game__track-85:hover .game__track-86-3{
+	visibility: visible;
+}
+.game__track-86-3{
+	position: absolute;
+	left: 90px;
+	bottom: 20px;
+	width: 20px;
+	height: 60px;
+}
+.game__track-86-3:hover .game__track-87-1{
+	visibility: visible;
+}
+.game__track-87-1{
+	position: absolute;
+	left: 20px;
+	width: 200px;
+	height: 20px;
+}
+.game__track-87-1:hover .game__track-88-1{
+	visibility: visible;
+}
+.game__track-88-1{
+	position: absolute;
+	right: -20px;
+	width: 20px;
+	height: 60px;
+}
+
+.game__track-86-2:hover .game__track-89{
+	visibility: visible;
+}
+.game__track-89{
+	position: absolute;
+	top: 10px;
+	left: -30px;
+	width: 30px;
+	height: 10px;
+}
+
+.game__track-89:hover .game__track-90{
+	visibility: visible;
+}
+.game__track-90{
+	position: absolute;
+	bottom: 10px;
+	width: 20px;
+	height: 300px;
+}
+.game__track-90:hover .game__track-91-1{
+	visibility: visible;
+}
+.game__track-91-1{
+	position: absolute;
+	bottom: 10px;
+	width: 20px;
+	height: 300px;
+}
+.game__track-90:hover .game__track-91-1{
+	visibility: visible;
+}
+.game__track-91-1{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 100px;
+	height: 20px;
+}
+.game__track-90:hover .game__track-91-2{
+	visibility: visible;
+}
+.game__track-91-2{
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 60px;
+	height: 20px;
+}
+.game__track-91-2:hover .game__track-92{
+	visibility: visible;
+}
+.game__track-92{
+	position: absolute;
+	left: 60px;
+	width: 10px;
+	height: 80px;
+}
+.game__track-92:hover{
+	position: absolute;
+	left: 60px;
+	width: 10px;
+	height: 0px;
+}
+
+.game__track-91-1:hover .game__track-93{
+	visibility: visible;
+}
+.game__track-93{
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	width: 30px;
+	height: 160px;
+}
+.game__track-93:hover .game__track-94{
+	visibility: visible;
+}
+.game__track-94{
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
+	width: 200px;
+	height: 40px;
+}
+.game__track-94:hover .game__track-95{
+	visibility: visible;
+}
+.game__track-95{
+	position: absolute;
+	left: 30px;
+	bottom: 0px;
+	width: 200px;
+	height: 40px;
+}
+.game__track-94:hover .game__track-95-1{
+	visibility: visible;
+}
+.game__track-95-1{
+	position: absolute;
+	right: -160px;
+	bottom: 20px;
+	width: 160px;
+	height: 20px;
+}
+
+.game__track-95-1:hover .game__track-96{
+	visibility: visible;
+}
+.game__track-96{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 10px;
+	height: 60px;
+}
+.game__track-96:hover .game__track-97{
+	visibility: visible;
+}
+.game__track-97{
+	position: absolute;
+	bottom: 40px;
+	right: 10px;
+	width: 250px;
+	height: 20px;
+}
+.game__track-97:hover .game__track-98-1{
+	visibility: visible;
+}
+.game__track-98-1{
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	width: 20px;
+	height: 60px;
+}
+.game__track-98-1:hover{
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	width: 20px;
+	height: 0px;
+}
+.game__track-97:hover .game__track-98-2{
+	visibility: visible;
+}
+.game__track-98-2{
+	position: absolute;
+	bottom: 20px;
+	left: 60px;
+	width: 20px;
+	height: 40px;
+}
+.game__track-98-2:hover .game__track-99{
+	visibility: visible;
+}
+.game__track-99{
+	position: absolute;
+	right: 0px;
+	left: 20px;
+	width: 100px;
+	height: 10px;
+}
+.game__track-99:hover .game__track-991{
+	visibility: visible;
+}
+.game__track-991{
+	position: absolute;
+	left: 60px;
+	bottom: 10px;
+	width: 40px;
+	height: 140px;
+}
+.game__track-991:hover .game__track-991-1{
+	visibility: visible;
+}
+.game__track-991-1{
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	width: 370px;
+	height: 15px;
+	border-radius: 0 100% 100% 0;
+}
+.game__track-991-1:hover{
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	width: 0px;
+	height: 15px;
+	border-radius: 0 100% 100% 0;
+}
+.game__track-991:hover .game__track-991-2{
+	visibility: visible;
+}
+.game__track-991-2{
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 370px;
+	height: 30px;
+}
+.game__track-991:hover .game__track-991-3{
+	visibility: visible;
+}
+.game__track-991-3{
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	width: 100px;
+	height: 10px;
+}
+.game__track-991-3:hover{
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	width: 0px;
+	height: 10px;
+}
+.game__track-991-2:hover .game__track-100{
+	visibility: visible;
+}
+.game__track-100{
+	position: absolute;
+	top: -25px;
+	right: -70px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: red;
+}
+.game__track-100:hover{
+	background: url("../img/homework/bones.jpg") center / cover no-repeat;
+	width: 500px;
+	height: 500px;
+	border-radius: 0;
+}
+
+
